@@ -1,0 +1,23 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Third Person Shooter Prototype", "Assembly-CSharp.csproj", "{80B0A770-94B8-E14B-5397-F1B5D21D63AA}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{80B0A770-94B8-E14B-5397-F1B5D21D63AA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{80B0A770-94B8-E14B-5397-F1B5D21D63AA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{80B0A770-94B8-E14B-5397-F1B5D21D63AA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{80B0A770-94B8-E14B-5397-F1B5D21D63AA}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(MonoDevelopProperties) = preSolution
+		StartupItem = Assembly-CSharp.csproj
+	EndGlobalSection
+EndGlobal
