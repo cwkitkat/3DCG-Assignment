@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class Units : MonoBehaviour {
 
-	[HideInInspector]
+	//[HideInInspector]
 	public float health;
 	[HideInInspector]
 	public float speed;

@@ -30,10 +30,10 @@ public class Enemy1 : MonoBehaviour {
 	private IEnumerator ChasePlayer(){
 		yield return new WaitForSeconds (2f);
 		int count = 0;
-		while (playerStatus.isActivated && playerStatus.health > 0) {
+		while (enemyStatus.health > 0 && playerStatus.isActivated && playerStatus.health > 0) {
 			transform.LookAt (player.transform);
 			transform.position = Vector3.MoveTowards (transform.position, player.transform.position, enemyStatus.speed * Time.deltaTime);
-			count ++;
+			count++;
 			if ((transform.position - player.transform.position).magnitude <= 1.5f) {
 				//attack
 				yield return new WaitForSeconds (attackCooldown);
