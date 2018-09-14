@@ -6,5 +6,4 @@ public class Unit : MonoBehaviour {
 
 	protected float speed;
 	[HideInInspector] public float hp;
-	protected int damage;
 }

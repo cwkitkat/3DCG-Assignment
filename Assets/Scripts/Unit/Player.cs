@@ -16,6 +16,7 @@ public class Player : Unit {
 	[SerializeField] private GameObject gameOverPanel = null;
 
 	private void Awake(){
+		score = 0;
 		hp = m_hp;
 		BulletObjectPool ();
 		fpsCtrl = GetComponent<FirstPersonController> ();

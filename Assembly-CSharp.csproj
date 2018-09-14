@@ -57,12 +57,12 @@
      <Compile Include="Assets\Scripts\Menu\AudioManager.cs" />
      <Compile Include="Assets\Scripts\Menu\SceneController.cs" />
      <Compile Include="Assets\Scripts\Menu\Victory.cs" />
-     <Compile Include="Assets\Scripts\Shoot.cs" />
      <Compile Include="Assets\Scripts\Trap.cs" />
      <Compile Include="Assets\Scripts\Unit\Enemy.cs" />
      <Compile Include="Assets\Scripts\Unit\EnemyRange.cs" />
      <Compile Include="Assets\Scripts\Unit\Player.cs" />
      <Compile Include="Assets\Scripts\Unit\Unit.cs" />
+     <Compile Include="Assets\Scripts\Unused\Shoot.cs" />
  <Reference Include="UnityEngine.UI">
  <HintPath>D:/Unity/Editor/Data/UnityExtensions/Unity/GUISystem/UnityEngine.UI.dll</HintPath>
  </Reference>
